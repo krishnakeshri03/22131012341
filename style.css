@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+  background-color: #f4f4f4;
+  cursor: url('https://cdn.iconscout.com/icon/free/png-256/cursor-1768079-1502246.png'), pointer;
+}
+h1 {
+  color: #333;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+form {
+  margin: 0 auto 1rem auto;
+  width: fit-content;
+}
+input[type="url"] {
+  width: 350px;
+  padding: 0.75rem 1rem;
+  font-size: 1.2rem;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 123, 255, 0.3);
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+input[type="url"]:focus {
+  outline: none;
+  border-color: #0056b3;
+  box-shadow: 0 0 8px rgba(0, 86, 179, 0.7);
+}
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  margin-left: 0.5rem;
+}
+button:hover {
+  background-color: #0056b3;
+}
+#result {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+a.short-url {
+  color: #007bff;
+  text-decoration: none;
+}
+a.short-url:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #007bff;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar li a:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f4f4f4;
+  padding: 0.5rem 0;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+
+.footer-text {
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.contact-info {
+  text-align: center;
+  color: #444;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
